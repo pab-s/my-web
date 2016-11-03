@@ -60,7 +60,8 @@ header {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  border: none; }
+  border: none;
+  box-shadow: 0px 0px 20px #3A539B; }
   .navbar-custom a:focus {
     outline: none; }
   .navbar-custom .navbar-brand {
@@ -72,13 +73,16 @@ header {
     .navbar-custom .navbar-nav li a {
       color: white; }
       .navbar-custom .navbar-nav li a:hover {
-        color: #4B77BE;
+        color: #a3b2dd;
         outline: none; }
       .navbar-custom .navbar-nav li a:focus, .navbar-custom .navbar-nav li a:active {
         color: white; }
     .navbar-custom .navbar-nav li.active a {
       color: white;
-      background: #4B77BE; }
+      background: #4B77BE;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      transition: all 0.5s; }
       .navbar-custom .navbar-nav li.active a:hover, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:active {
         color: white;
         background: #4B77BE; }

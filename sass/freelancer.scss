@@ -86,6 +86,7 @@ header {
 	text-transform: uppercase;
 	font-weight: 700;
 	border: none;
+	box-shadow: 0px 0px 20px $theme-primary;
 	a:focus {
 		outline: none;
 	}
@@ -104,7 +105,7 @@ header {
 			a {
 				color: white;
 				&:hover {
-					color: $theme-success;
+					color: $theme-light;
 					outline: none;
 				}
 				&:focus,
@@ -116,6 +117,7 @@ header {
 				a {
 					color: white;
 					background: $theme-success;
+					@include transition-all;
 					&:hover,
 					&:focus,
 					&:active {
