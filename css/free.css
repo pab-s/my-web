@@ -13,7 +13,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color: #4B77BE;
   outline: none; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -44,22 +44,22 @@ hr.star-light {
   border-color: white; }
 
 hr.star-light:after {
-  background-color: #18BC9C;
+  background-color: #4B77BE;
   color: white; }
 
 hr.star-primary {
-  border-color: #2C3E50; }
+  border-color: #3A539B; }
 
 hr.star-primary:after {
   background-color: white;
-  color: #2C3E50; }
+  color: #3A539B; }
 
 .img-centered {
   margin: 0 auto; }
 
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #4B77BE;
   color: white; }
   header .container {
     padding-top: 100px;
@@ -86,7 +86,7 @@ header {
   header .intro-text .skills {
     font-size: 1.75em; } }
 .navbar-custom {
-  background: #2C3E50;
+  background: #3A539B;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -102,25 +102,25 @@ header {
     .navbar-custom .navbar-nav li a {
       color: white; }
       .navbar-custom .navbar-nav li a:hover {
-        color: #18BC9C;
+        color: #4B77BE;
         outline: none; }
       .navbar-custom .navbar-nav li a:focus, .navbar-custom .navbar-nav li a:active {
         color: white; }
     .navbar-custom .navbar-nav li.active a {
       color: white;
-      background: #18BC9C; }
+      background: #4B77BE; }
       .navbar-custom .navbar-nav li.active a:hover, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:active {
         color: white;
-        background: #18BC9C; }
+        background: #4B77BE; }
   .navbar-custom .navbar-toggle {
     color: white;
     text-transform: uppercase;
     font-size: 10px;
     border-color: white; }
     .navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
-      background-color: #18BC9C;
+      background-color: #4B77BE;
       color: white;
-      border-color: #18BC9C; }
+      border-color: #4B77BE; }
 
 @media (min-width: 768px) {
   .navbar-custom {
@@ -145,7 +145,7 @@ section {
     font-size: 3em; }
 
 section.success {
-  background: #18BC9C;
+  background: #4B77BE;
   color: white; }
 
 @media (max-width: 767px) {
@@ -163,7 +163,7 @@ section.success {
     max-width: 400px;
     margin: 0 auto; }
     #portfolio .portfolio-item .portfolio-link .caption {
-      background: fade(#18BC9C, 90%);
+      background: fade(#4B77BE, 90%);
       position: absolute;
       width: 100%;
       height: 100%;
@@ -234,7 +234,7 @@ section.success {
   opacity: 1; }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C; }
+  color: #4B77BE; }
 
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee; }
@@ -245,12 +245,12 @@ footer {
     margin-bottom: 30px; }
   footer .footer-above {
     padding-top: 50px;
-    background-color: #2C3E50; }
+    background-color: #3A539B; }
   footer .footer-col {
     margin-bottom: 50px; }
   footer .footer-below {
     padding: 25px 0;
-    background-color: #233140; }
+    background-color: #334988; }
 
 .btn-outline {
   color: white;
@@ -260,7 +260,7 @@ footer {
   transition: all 0.3s ease-in-out;
   margin-top: 15px; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-    color: #18BC9C;
+    color: #4B77BE;
     background: white;
     border: solid 2px white; }
 
@@ -325,7 +325,7 @@ footer {
     height: 75px;
     width: 1px;
     margin-left: 35px;
-    background-color: #2C3E50;
+    background-color: #3A539B;
     transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     /* IE 9 */
@@ -335,7 +335,7 @@ footer {
     .portfolio-modal .close-modal .lr .rl {
       height: 75px;
       width: 1px;
-      background-color: #2C3E50;
+      background-color: #3A539B;
       transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       /* IE 9 */
