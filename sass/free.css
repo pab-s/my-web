@@ -28,7 +28,6 @@ h2 {
   margin: 0 auto; }
 
 header {
-  text-align: center;
   background: #4B77BE;
   color: white; }
   header .container {
@@ -61,7 +60,7 @@ header {
   text-transform: uppercase;
   font-weight: 700;
   border: none;
-  box-shadow: 0px 0px 20px #3A539B; }
+  box-shadow: 0px 0px 40px #17213e; }
   .navbar-custom a:focus {
     outline: none; }
   .navbar-custom .navbar-brand {
@@ -224,7 +223,8 @@ footer {
     margin-bottom: 50px; }
   footer .footer-below {
     padding: 25px 0;
-    background-color: #334988; }
+    background-color: #334988;
+    box-shadow: 0px 0px 50px #17213e; }
 
 .btn-outline {
   color: white;
