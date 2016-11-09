@@ -1,6 +1,7 @@
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow-x: hidden; }
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  font-weight: lighter; }
 
 p {
   font-size: 20px; }
@@ -17,50 +18,18 @@ a.active {
   outline: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700; }
+  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-hr.star-light,
-hr.star-primary {
-  padding: 0;
-  border: none;
-  border-top: solid 5px;
-  text-align: center;
-  max-width: 250px;
-  margin: 25px auto 30px; }
-
-hr.star-light:after,
-hr.star-primary:after {
-  content: "\f005";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -0.8em;
-  font-size: 2em;
-  padding: 0 0.25em; }
-
-hr.star-light {
-  border-color: white; }
-
-hr.star-light:after {
-  background-color: #4B77BE;
-  color: white; }
-
-hr.star-primary {
-  border-color: #3A539B; }
-
-hr.star-primary:after {
-  background-color: white;
-  color: #3A539B; }
+h2 {
+  padding-bottom: 100px; }
 
 .img-centered {
   margin: 0 auto; }
 
 header {
-  text-align: center;
   background: #4B77BE;
-  color: white; }
+  color: white;
+  font-weight: lighter; }
   header .container {
     padding-top: 100px;
     padding-bottom: 50px; }
@@ -69,13 +38,12 @@ header {
     margin: 0 auto 20px; }
   header .intro-text .name {
     display: block;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
+    font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2em; }
   header .intro-text .skills {
-    font-size: 1.25em;
-    font-weight: 300; }
+    font-size: 1.75em; }
+  header .intro-text p {
+    font-size: 1.25em; }
 
 @media (min-width: 768px) {
   header .container {
@@ -87,13 +55,16 @@ header {
     font-size: 1.75em; } }
 .navbar-custom {
   background: #3A539B;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  border: none; }
+  border: none;
+  box-shadow: 0px 0px 40px #17213e; }
   .navbar-custom a:focus {
     outline: none; }
   .navbar-custom .navbar-brand {
+    text-transform: capitalize;
+    font-weight: lighter;
     color: white; }
     .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand.active {
       color: white; }
@@ -102,13 +73,16 @@ header {
     .navbar-custom .navbar-nav li a {
       color: white; }
       .navbar-custom .navbar-nav li a:hover {
-        color: #4B77BE;
+        color: #a3b2dd;
         outline: none; }
       .navbar-custom .navbar-nav li a:focus, .navbar-custom .navbar-nav li a:active {
         color: white; }
     .navbar-custom .navbar-nav li.active a {
       color: white;
-      background: #4B77BE; }
+      background: #4B77BE;
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      transition: all 0.5s; }
       .navbar-custom .navbar-nav li.active a:hover, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:active {
         color: white;
         background: #4B77BE; }
@@ -241,16 +215,10 @@ form .row:first-child .floating-label-form-group {
 
 footer {
   color: white; }
-  footer h3 {
-    margin-bottom: 30px; }
-  footer .footer-above {
-    padding-top: 50px;
-    background-color: #3A539B; }
-  footer .footer-col {
-    margin-bottom: 50px; }
   footer .footer-below {
     padding: 25px 0;
-    background-color: #334988; }
+    background-color: #334988;
+    box-shadow: 0px 0px 50px #17213e; }
 
 .btn-outline {
   color: white;
