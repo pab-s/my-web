@@ -1,13 +1,16 @@
 body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
-  font-weight: lighter; }
+  font-weight: lighter;
+}
 
 p {
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 p.small {
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 a,
 a:hover,
@@ -15,16 +18,20 @@ a:focus,
 a:active,
 a.active {
   color: #4B77BE;
-  outline: none; }
+  outline: none;
+}
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 h2 {
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+}
 
 .img-centered {
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 header {
   background-image: url(../img/code.jpg);
@@ -33,12 +40,13 @@ header {
   height:100vh;
   color: white;
 }
-  header .container {
-    padding-top: 40vh;
-  }
-  /*header img {
-    display: block;
-    margin: 0 auto 20px; }
+header .container {
+  padding-top: 40vh;
+}
+header img {
+  display: block;
+  margin: 0 auto 20px;
+}
   header .intro-text .name {
     display: block;
     font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -46,9 +54,9 @@ header {
   header .intro-text .skills {
     font-size: 1.75em; }
   header .intro-text p {
-    font-size: 1.25em; }*/
+    font-size: 1.25em; }
 
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   header .container {
     padding-top: 200px;
     padding-bottom: 100px;
@@ -56,7 +64,9 @@ header {
   header .intro-text .name {
     font-size: 4.75em; }
   header .intro-text .skills {
-    font-size: 1.75em; } }*/
+    font-size: 1.75em; }
+}
+
 .navbar-custom {
   background: rgba(0, 0, 0, .5);
   font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -116,7 +126,10 @@ header {
   .navbar-custom.affix {
     padding: 10px 0; }
     .navbar-custom.affix .navbar-brand {
-      font-size: 1.5em; } }
+      font-size: 1.5em; }
+}
+
+
 section {
   padding: 100px 0;
 }
@@ -125,28 +138,42 @@ section {
     font-size: 3em; }
 
 section.about {
-  background: #4B77BE;
+  background-image: url(../img/mac.jpg);
+  background-size: cover;
+  position: relative;
   color: white;
   height:100vh;
+}
+section.about .img-responsive {
+  margin: 0 auto;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 767px) {
   section {
-    padding: 75px 0; }
-
+    padding: 75px 0;
+  }
   section.first {
-    padding-top: 75px; } }
-#portfolio {
+    padding-top: 75px;
+  }
+  section.about .img-responsive {
+    height: 50%;
+    width: 50%;
+  }
+}
+
+
+
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+#portfolio .container-fluid {
+  padding: 0;
+  margin: 0 auto;
 
 }
-#portfolio .portfolio-item {
-  margin: 0 0 15px;
-  right: 0; }
-  #portfolio .portfolio-item .portfolio-link {
-    display: block;
-    position: relative;
-    max-width: 400px;
-    margin: 0 auto; }
     #portfolio .portfolio-item .portfolio-link .caption {
       background: fade(#4B77BE, 90%);
       position: absolute;
@@ -155,9 +182,11 @@ section.about {
       opacity: 0;
       transition: all ease 0.5s;
       -webkit-transition: all ease 0.5s;
-      -moz-transition: all ease 0.5s; }
+      -moz-transition: all ease 0.5s;
+    }
       #portfolio .portfolio-item .portfolio-link .caption:hover {
-        opacity: 1; }
+        opacity: 1;
+      }
       #portfolio .portfolio-item .portfolio-link .caption .caption-content {
         position: absolute;
         width: 100%;
@@ -166,18 +195,34 @@ section.about {
         text-align: center;
         top: 50%;
         margin-top: -12px;
-        color: white; }
+        color: white;
+      }
         #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-          margin-top: -12px; }
+          margin-top: -12px;
+        }
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
         #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-          margin: 0; }
-#portfolio * {
-  z-index: 2; }
+          margin: 0;
+        }
+      #portfolio * {
+        z-index: 2;
+      }
+
+  .row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .row.no-gutters > [class^="col-"],
+  .row.no-gutters > [class*=" col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px; } }
+    margin: 0;
+  }
+}
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
