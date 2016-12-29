@@ -27,13 +27,16 @@ h2 {
   margin: 0 auto; }
 
 header {
-  background: #4B77BE;
+  background-image: url(../img/code.jpg);
+  background-size: cover;
+  font-weight: lighter;
+  height:100vh;
   color: white;
-  font-weight: lighter; }
+}
   header .container {
-    padding-top: 100px;
-    padding-bottom: 50px; }
-  header img {
+    padding-top: 40vh;
+  }
+  /*header img {
     display: block;
     margin: 0 auto 20px; }
   header .intro-text .name {
@@ -43,23 +46,25 @@ header {
   header .intro-text .skills {
     font-size: 1.75em; }
   header .intro-text p {
-    font-size: 1.25em; }
+    font-size: 1.25em; }*/
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   header .container {
     padding-top: 200px;
-    padding-bottom: 100px; }
+    padding-bottom: 100px;
+  }
   header .intro-text .name {
     font-size: 4.75em; }
   header .intro-text .skills {
-    font-size: 1.75em; } }
+    font-size: 1.75em; } }*/
 .navbar-custom {
-  background: #3A539B;
+  background: rgba(0, 0, 0, .5);
   font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
-  box-shadow: 0px 0px 40px #17213e; }
+  /*box-shadow: 0px 0px 20px black;*/
+}
   .navbar-custom a:focus {
     outline: none; }
   .navbar-custom .navbar-brand {
@@ -98,7 +103,7 @@ header {
 
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 10px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s; }
@@ -113,14 +118,17 @@ header {
     .navbar-custom.affix .navbar-brand {
       font-size: 1.5em; } }
 section {
-  padding: 100px 0; }
+  padding: 100px 0;
+}
   section h2 {
     margin: 0;
     font-size: 3em; }
 
-section.success {
+section.about {
   background: #4B77BE;
-  color: white; }
+  color: white;
+  height:100vh;
+}
 
 @media (max-width: 767px) {
   section {
@@ -128,6 +136,9 @@ section.success {
 
   section.first {
     padding-top: 75px; } }
+#portfolio {
+
+}
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0; }
